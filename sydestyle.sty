@@ -49,6 +49,19 @@
 % Make sections break page when done
 \newcommand{\sectionbreak}{\clearpage}
 
+% syde sections
+\newcommand*{\sydechapter}[1]{
+	\section{#1}
+}
+\newcommand*{\sydesection}[1]{
+	\subsection{#1}
+}
+\newcommand*{\sydesubsection}[1]{
+	\subsubsection*{#1}
+    \addcontentsline{toc}{subsection}{\protect\numberline{}{#1}}
+}
+
+
 % Title Page Stuff
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

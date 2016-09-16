@@ -19,8 +19,6 @@
 \employer{Gandalf Technologies}
 \employeraddress{130 Colonnade Road \\ Nepean, ON K2E 1B6}
 
-
-
 % Content here
 \begin{document}
 	% Specify start indent because other wise it may not line up perfectly with the default
@@ -61,21 +59,21 @@
 	% Couldn't figure out how to automate this, but leave this line in to restart page numbers at 1 and with arabic numbers.
 	\startarabicpagenumbers
 
-	\section{First section}
+	\sydechapter{First chapter}
 
 	Your text goes here. I'm going to add a bunch of words to make this a paragraph longer than one line.
 
 	The next paragraph is automatically indented, as per the guide (default \LaTeX\ behaviour)
 
-	\subsection{A subsection}
+	\sydesection{A section}
 
 	More text.
 
-	\subsubsection{A sub-subsection}
+	\sydesubsection{A subsection}
 
 	Yep, it's actually a \textbackslash subsubsection\{sub-subsection name\}.
 
-	\section{Some Tables and Figures}
+	\sydechapter{Some Tables and Figures}
 
 	Here is a figure:
 
@@ -127,7 +125,7 @@
 
 	As usual, we can use it's number. That was formula \eqref{ptransfer}
 
-	\section{Citations}
+	\sydechapter{Citations}
 
 	Three items are cited: \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, the Einstein journal paper \cite{einstein}, and the Donald Knuth's website \cite{knuthwebsite}. The \LaTeX\ related items are \cite{latexcompanion,knuthwebsite}.
 
@@ -135,7 +133,7 @@
 	\startappendixtitles
 	\begin{appendices}
 
-	\section{Glossary}
+	\sydechapter{Glossary}
 	% In the specific case of a glossary, you probably don't want to indent every new definition
 	\stopindent
 	word: some def
